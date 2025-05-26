@@ -1,0 +1,16 @@
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    src: url('/resources/fonts/RedHatDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    src: url('/resources/fonts/RedHatDisplay-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+

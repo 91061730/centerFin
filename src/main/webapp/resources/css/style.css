@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    background-color: #f8f9fa; /* fundo neutro claro para combinar com Bootstrap */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #212529; /* texto escuro padrão do Bootstrap */
+}
+
+.form-container {
+    max-width: 400px;
+    padding: 2rem;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Ícones sociais */
+:root {
+    --icon-size: 24px;
+    --icon-color: #555;
+    --icon-hover-color: #0d6efd; /* cor primária do Bootstrap */
+}
+
+.icon-personalizado {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.icon-personalizado i {
+    font-size: var(--icon-size);
+    color: var(--icon-color);
+    transition: transform 0.2s ease, color 0.2s ease;
+    cursor: pointer;
+}
+
+.icon-personalizado i:hover {
+    color: var(--icon-hover-color);
+    transform: scale(1.2);
+}
+.nav-underline .nav-link.active {
+    border-bottom: 2px solid white;
+    color: white;
+}
+.nav-underline .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+}
+.nav-underline .nav-link:hover {
+    color: white;
+}
